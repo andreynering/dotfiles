@@ -1,0 +1,11 @@
+[user]
+#	name =
+#	email =
+[alias]
+	co = checkout
+	ci = commit
+	st = status
+	br = branch
+[credential]
+# windows only:
+#	helper = wincred
