@@ -6,6 +6,10 @@
 	ci = commit
 	st = status
 	br = branch
+[core]
+	editor = vim
 [credential]
 # windows only:
 #	helper = wincred
+# linux only:
+#	helper = cache --timeout=30000
