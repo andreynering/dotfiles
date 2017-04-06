@@ -6,6 +6,12 @@
 	ci = commit
 	st = status
 	br = branch
+	undo = reset --soft HEAD^
+	stash-all = stash save --include-untracked
+[push]
+	followTags = true
+[status]
+	showUntrackedFiles = all
 [core]
 	editor = vim
 [credential]
