@@ -6,6 +6,7 @@
 	ci = commit
 	st = status
 	br = branch
+	dc = diff --cached
 	undo = reset --soft HEAD^
 	stash-all = stash save --include-untracked
 	do-merge = "!f() { git merge --no-ff $1 && git branch -d $1; }; f"
