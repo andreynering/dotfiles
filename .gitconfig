@@ -16,6 +16,8 @@
 	followTags = true
 [fetch]
 	prune = true
+[status]
+	showUntrackedFiles = all
 [core]
 	editor = vim
 [credential]
