@@ -20,7 +20,7 @@
 [status]
 	showUntrackedFiles = all
 [core]
-	editor = vim
+	editor = micro
 [credential]
 # windows only:
 #	helper = wincred
