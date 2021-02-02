@@ -30,6 +30,7 @@ brew "watchman"
 brew "zsh"
 brew "zsh-completions"
 
+cask "caffeine"
 cask "dbeaver-community"
 cask "deezer"
 cask "discord"
