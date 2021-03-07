@@ -1,6 +1,6 @@
 [user]
-#	name =
-#	email =
+	name = Andrey Nering
+	email = andrey@nering.com.br
 [alias]
 	co = checkout
 	ci = commit
@@ -15,6 +15,8 @@
 	authors = "!git log --format='%an <%ae>' | sort -u"
 [push]
 	followTags = true
+[pull]
+	rebase = false
 [fetch]
 	prune = true
 [status]
