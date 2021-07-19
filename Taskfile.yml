@@ -2,5 +2,7 @@ version: '3'
 
 tasks:
   brew:
-    - rm Brewfile
-    - brew bundle dump --no-lock
+    desc: Update Brewfile
+    cmds:
+      - rm Brewfile
+      - brew bundle dump --no-lock
