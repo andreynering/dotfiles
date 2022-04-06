@@ -4,5 +4,5 @@ tasks:
   brew:
     desc: Update Brewfile
     cmds:
-      - rm Brewfile
+      - rm -f Brewfile
       - brew bundle dump --no-lock
