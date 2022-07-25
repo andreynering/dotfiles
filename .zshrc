@@ -2,6 +2,9 @@
 # at least on macOS:
 stty icrnl
 
+# Raise the limit of simultaneous opened files. Fixes some Capybara/ChromeDriver tests
+ulimit -n 65536
+
 # Homebrew
 export HOMEBREW_NO_AUTO_UPDATE=1
 
@@ -23,3 +26,4 @@ export HUSKY_SKIP_INSTALL=1
 export THOR_SILENCE_DEPRECATION=1
 
 alias t='task'
+alias be='bundle exec'
