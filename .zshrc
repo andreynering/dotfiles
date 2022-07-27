@@ -27,3 +27,4 @@ export THOR_SILENCE_DEPRECATION=1
 
 alias t='task'
 alias be='bundle exec'
+alias r='bundle exec rails'
