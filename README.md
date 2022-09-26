@@ -8,6 +8,10 @@ mostly so setting up a new computer is easier.
 To change the theme, open Micro, press control+E and type:
 
 ```
+set colorscheme monokai
+```
+
+```
 set colorscheme bubblegum
 ```
 
