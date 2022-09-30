@@ -26,6 +26,11 @@ export IGNORE_COV='true'
 export HUSKY_SKIP_INSTALL=1
 export THOR_SILENCE_DEPRECATION=1
 
+# Fix macOS -> Ubuntu connection using Mosh
+export LC_ALL=en_US.UTF-8
+export LANG=en_US.UTF-8
+export LANGUAGE=en_US.UTF-8
+
 alias t='task'
 alias be='bundle exec'
 alias r='bundle exec rails'
