@@ -27,7 +27,7 @@ Source: https://gist.github.com/subfuzion/db7f57fff2fb6998a16c
 
 ## Firefox font rendering fix on macOS
 
-Change these settings:
+Go to `about:config` and change these settings:
 
 | Setting | Value |
 |- | -|
