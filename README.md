@@ -25,7 +25,7 @@ git config --global core.excludesfile ~/.gitignore
 
 Source: https://gist.github.com/subfuzion/db7f57fff2fb6998a16c
 
-## Firefox font fix on macOS
+## Firefox font rendering fix on macOS
 
 Change these settings:
 
