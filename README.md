@@ -24,3 +24,13 @@ git config --global core.excludesfile ~/.gitignore
 ```
 
 Source: https://gist.github.com/subfuzion/db7f57fff2fb6998a16c
+
+## Firefox font fix on macOS
+
+Change these settings:
+
+| Setting | Value |
+|- | -|
+| `gfx.webrender.all` | `true` |
+| `gfx.webrender.enabled` | `true` |
+| `gfx.webrender.quality.force-subpixel-aa-where-possible` | `true` |
