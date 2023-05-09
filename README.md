@@ -34,3 +34,10 @@ Go to `about:config` and change these settings:
 | `gfx.webrender.all` | `true` |
 | `gfx.webrender.enabled` | `true` |
 | `gfx.webrender.quality.force-subpixel-aa-where-possible` | `true` |
+
+## Show cmd+tab on all screens on macOS
+
+```bash
+defaults write com.apple.dock appswitcher-all-displays -bool true
+killall Dock
+```
