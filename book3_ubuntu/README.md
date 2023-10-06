@@ -22,8 +22,11 @@ Source: https://github.com/thesofproject/linux/issues/4055#issuecomment-13323314
 
 ## Enable international keyboard
 
-This fixes accepts when using the US keyboard key mapping.
+Settings > Keyboard. Add input source, click on "English (United States)" and a
+third page will be shown with "English (intl, with dead keys)".
 
-```bash
-setxkbmap -layout us -variant intl
-```
+![Step 1](keyboard-1.png)
+
+![Step 2](keyboard-2.png)
+
+![Step 3](keyboard-3.png)
