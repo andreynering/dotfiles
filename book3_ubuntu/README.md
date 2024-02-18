@@ -30,3 +30,12 @@ third page will be shown with "English (intl, with dead keys)".
 ![Step 2](keyboard-2.png)
 
 ![Step 3](keyboard-3.png)
+
+Then, edit `/etc/environment` and add the following line to fix the insertion
+of `ç`:
+
+```bash
+GTK_IM_MODULE=cedilla
+```
+
+Log off and log in again for the change to take effect.
