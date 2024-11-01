@@ -9,6 +9,7 @@
 	dc = diff --cached
 	undo = reset --soft HEAD^
 	stash-all = stash save --include-untracked
+	fixup = commit --fixup
 	do-merge = "!f() { git merge --no-ff $1 && git branch -d $1; }; f"
 	do-gc = "!f() { git reflog expire --all --expire=now && git gc --prune=now --aggressive; }; f"
 	cleanup = "!git branch -vv | awk '/: gone]/{print $1}' | xargs git br -D"
