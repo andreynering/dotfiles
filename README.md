@@ -41,3 +41,9 @@ Go to `about:config` and change these settings:
 defaults write com.apple.dock appswitcher-all-displays -bool true
 killall Dock
 ```
+
+## Ensure apps like home-manager use English on macOS
+
+```bash
+defaults write NSGlobalDomain AppleLanguages '("en-US")'
+```
