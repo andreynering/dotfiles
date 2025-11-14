@@ -15,7 +15,7 @@ set colorscheme monokai
 set colorscheme bubblegum
 ```
 
-## Global .gitignore
+## Global `.gitignore`
 
 Needs to run this to make it work:
 
@@ -25,14 +25,12 @@ git config --global core.excludesfile ~/.gitignore
 
 Source: https://gist.github.com/subfuzion/db7f57fff2fb6998a16c
 
-## Firefox font rendering fix on macOS
-
-Go to `about:config` and change these settings:
+## Firefox `about:config` adjustments
 
 | Setting | Value |
 |- | -|
+| `browser.bookmarks.openInTabClosesMenu` | `false` |
 | `gfx.webrender.all` | `true` |
-| `gfx.webrender.enabled` | `true` |
 | `gfx.webrender.quality.force-subpixel-aa-where-possible` | `true` |
 
 ## Show cmd+tab on all screens on macOS
