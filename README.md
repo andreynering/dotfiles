@@ -30,6 +30,7 @@ Source: https://gist.github.com/subfuzion/db7f57fff2fb6998a16c
 | Setting | Value |
 |- | -|
 | `browser.bookmarks.openInTabClosesMenu` | `false` |
+| `browser.tabs.groups.smart.enabled` | `false` |
 | `browser.tabs.loadBookmarksInBackground` | `true` |
 | `gfx.webrender.all` | `true` |
 | `gfx.webrender.quality.force-subpixel-aa-where-possible` | `true` |
